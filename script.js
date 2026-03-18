@@ -3,7 +3,7 @@ a.innerHTML = `
 <div class="my-image-wrapper">
       <img
         class="my-image"
-        src="/assets/ElvisPresley.png"
+        src="/confusion/assets/ElvisPresley.png"
         alt="(ElvisPresley)"
       />
     </div>
@@ -26,7 +26,7 @@ setInterval(() => {
   h.innerText = helloArr[rand];
   const randX = Math.random() * (window.innerWidth - i.clientWidth);
   const randY = Math.random() * (window.innerHeight - i.clientHeight);
-//   i.style.transform = `translate(${randX}px, ${randY}px)`;
+  i.style.transform = `translate(${randX}px, ${randY}px)`;
 
   const range = Math.floor(Math.random() * (text.length-9))
   const range2 = Math.floor(Math.random() * 7)+1
