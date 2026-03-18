@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+#i {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  width: 30%;
+}
+
+#a {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.my-image-wrapper {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+}
+
+.my-image-wrapper:hover .my-image {
+  visibility: visible;
+}
+
+.my-image {
+  visibility: hidden;
+}
